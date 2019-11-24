@@ -1,0 +1,1 @@
+window.open('http://webcache.googleusercontent.com/search?q=cache:' + encodeURI(document.location.href), "_self");

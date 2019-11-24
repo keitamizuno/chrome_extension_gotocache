@@ -1,0 +1,19 @@
+{
+    "name": "GoToCache",
+    "version": "1.0.0",
+    "manifest_version": 2,
+    "description": "When you open some web page, this extension move it to google's cache page.",
+    "content_scripts": [
+        {
+            "exclude_matches": [
+                "https://www.google.com/*"
+            ],
+            "matches": [
+                "https://*/*"
+            ],
+            "js": [
+                "content.js"
+            ]
+        }
+    ]
+}
